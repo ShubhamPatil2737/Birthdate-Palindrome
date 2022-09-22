@@ -75,3 +75,32 @@ input {
 .list-item-inline {
     display: inline-block;
 }
+.list-inline-item{
+    display: inline;
+    padding: 0rem 1rem;
+}
+.footer{
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    border-bottom-right-radius: 2rem;
+    
+}
+.footer .link{
+    color: white;
+}
+.footer .footer-list{
+    padding-inline-start: 0px;
+}
+.footer-heading{
+    
+    font-size: larger;
+    padding: 1rem;
+}
+.footer .bx{
+   font-size: 35px;
+}
+.footer .bx:hover{
+    color: black;
+}
